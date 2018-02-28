@@ -73,7 +73,7 @@ void MyJet::setOrigin(int x, int y){
 void MyJet::getHurt(){
     blood --;
     bullet = 1;
-    cout << "PLAYER BLODD: " << blood << endl;
+//    cout << "PLAYER BLODD: " << blood << endl;
 }
 
 

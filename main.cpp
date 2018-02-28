@@ -434,7 +434,7 @@ void hitBoss(Vector< EnemyBoss*>& bigEs, Vector< MyBullet*>& playerBullets) {
             if(bigEs.size() > 0 && playerBullets.size() > 0) {
 //                cout << "HERE 2 "<< endl;
                 if (bigEs[i]->contains(playerBullets[j])) {
-                    cout << "Have an overlap\n";
+//                    cout << "Have an overlap\n";
                     playerBullets.remove(j);
                     
                     if(bigEs[i]->getBlood() > 0){
@@ -471,7 +471,7 @@ void hitBoss(Vector< EnemyBoss*>& bigEs, Vector< MyBullet*>& playerBullets) {
 int main(int argc, char** argv) {
     srand( static_cast<unsigned int>(time(0)));
     
-    cout << "need a cout\n";
+//    cout << "need a cout\n";
     
     GWindow gw(WINDOW_WIDTH, WINDOW_HEIGHT);
     
@@ -497,7 +497,7 @@ int main(int argc, char** argv) {
     
     
     // Create Background Image
-    GImage *backgroundImg = new GImage("background.jpg");
+    GImage *backgroundImg = new GImage("img/background.jpg");
     Entity* background = new Entity(-2200,-1230, backgroundImg);
     background->draw(gw);
     
@@ -513,15 +513,15 @@ int main(int argc, char** argv) {
     
     
     
-    GImage* enemy1 = new GImage("Enemy1.png");
-    GImage* myJetImg = new GImage("fighter.png");
-    GImage* myBullet = new GImage("myBullet.png");
-    GImage* enemyBullet = new GImage("enemyBullet.png");
-    GImage* heart = new GImage("heart.png");
-    GImage* boss = new GImage("enemyBoss.png");
-    GImage* bossBullet = new GImage("bossB.png");
-    GImage* bonus = new GImage("bonus.png");
-    GImage* meteorImg = new GImage("meteor.png");
+    GImage* enemy1 = new GImage("img/Enemy1.png");
+    GImage* myJetImg = new GImage("img/fighter.png");
+    GImage* myBullet = new GImage("img/myBullet.png");
+    GImage* enemyBullet = new GImage("img/enemyBullet.png");
+    GImage* heart = new GImage("img/heart.png");
+    GImage* boss = new GImage("img/enemyBoss.png");
+    GImage* bossBullet = new GImage("img/bossB.png");
+    GImage* bonus = new GImage("img/bonus.png");
+    GImage* meteorImg = new GImage("img/meteor.png");
     
     
     bool isDead = false;
