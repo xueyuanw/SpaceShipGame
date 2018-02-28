@@ -17,4 +17,4 @@ Rules:
 	c. Hit Enemy, each hit + 10, enemy Dead + another 20
 	d. Hit EnemyBoss, each hit + 20, boss Dead + another 40
 
-[DesignDoc.pdf](Documentation/DesignDoc.pdf)
+View More Implementation on[DesignDoc.pdf](DesignDoc.pdf)
