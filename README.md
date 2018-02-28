@@ -16,3 +16,5 @@ Rules:
 	b. Hit BulletBonus + 10
 	c. Hit Enemy, each hit + 10, enemy Dead + another 20
 	d. Hit EnemyBoss, each hit + 20, boss Dead + another 40
+
+[DesignDoc.pdf](Documentation/DesignDoc.pdf)
