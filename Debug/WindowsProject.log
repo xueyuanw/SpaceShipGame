@@ -1,0 +1,3 @@
+﻿  main.cpp
+c:\users\michael crowley\dropbox (uscitp)\itp365\itp365_2016_2\assignments\homeworks\hw05\hw5_graphics\main.cpp(55): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  WindowsProject.vcxproj -> C:\Users\Michael Crowley\Dropbox (uscItp)\ITP365\ITP365_2016_2\assignments\homeworks\hw05\hw5_Graphics\Debug\WindowsProject.exe
